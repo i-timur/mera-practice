@@ -3,5 +3,3 @@ node_modules/
 dist
 cypress/videos/
 .DS_Store
-
-package-lock.json

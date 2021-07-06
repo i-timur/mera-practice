@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d dist",
     "cypress:open": "cypress open",
     "test": "cypress run",
-    "lint": "npm run lint -- --fix"
+    "lint": "npm run lint --fix"
   },
   "repository": {
     "type": "git",

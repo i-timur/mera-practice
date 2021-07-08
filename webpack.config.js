@@ -17,10 +17,14 @@ module.exports = {
 					loader: 'babel-loader',
 					options: {
 						presets: ['@babel/preset-env'],
-					},
-				},
+					}
+				}
 			}
-		],
+		]
 	},
-	plugins: [new CleanWebpackPlugin(), new HtmlWebpackPlugin({template: 'index.html', filename: 'index.html'}), new ESLintPlugin()],
+	plugins: [
+	 new CleanWebpackPlugin(),
+	 new HtmlWebpackPlugin({template: 'index.html', filename: 'index.html'}),
+	 new ESLintPlugin()
+	]
 };

@@ -9,7 +9,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "test": "cypress run",
-    "lint": "npm run lint --fix && editorconfig-checker ./src/index.js"
+    "lint": "eslint . --max-warnings=0 && prettier . --check"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,6 @@
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "cypress": "^7.6.0",
     "editorconfig-checker": "^4.0.2",
-    "eslint": "^7.29.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-webpack-plugin": "^2.5.4",

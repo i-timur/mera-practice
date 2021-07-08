@@ -1,0 +1,12 @@
+.github
+cypress
+dist
+node_modules
+webpack.config.js
+webpack.dev.js
+webpack.prod.js
+.babelrc
+.eslintrc
+.prettierrc
+*.json
+*.html

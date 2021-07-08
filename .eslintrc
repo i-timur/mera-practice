@@ -36,5 +36,10 @@
             "always"
         ],
         "prettier/prettier": "error"
+    },
+    "settings": {
+        "react": {
+            "version": "latest"
+        }
     }
 }

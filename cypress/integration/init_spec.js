@@ -7,7 +7,7 @@
 
 describe('index.html', () => {
   it('to be loaded', () => {
-    cy.request('http://localhost:5000/')
+    cy.request('http://localhost:3000/')
       .then(response => {
         expect(response.status).to.be.equal(200)
       })

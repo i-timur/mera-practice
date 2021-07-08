@@ -8,8 +8,8 @@
     "start": "webpack serve --config webpack.dev.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "test": "editorconfig-checker ./src/index.js",
-    "lint": "npm run lint --fix"
+    "test": "cypress run",
+    "lint": "npm run lint --fix && editorconfig-checker ./src/index.js"
   },
   "repository": {
     "type": "git",

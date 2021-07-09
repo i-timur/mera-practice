@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       # Build
+      - run: npm install
       - run: npm run predeploy
       # Deploy
       - run: npm run deploy

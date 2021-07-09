@@ -22,9 +22,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
       # Build
-      - run: git config --global user.email "i.timur@mail.ru"
-      - run: git config --global user.name "i-timur"
       - run: npm install
       - run: npm run predeploy
-      # Deploy
-      - run: npm run deploy

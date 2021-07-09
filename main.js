@@ -1,0 +1,1 @@
+(()=>{function o(){console.log("Hello, world")}console.log("hello, world!"),console.log("hello, world"),o(),o(),o(),o(),o()})();

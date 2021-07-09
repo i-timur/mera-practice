@@ -29,6 +29,7 @@
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "cypress": "^7.6.0",
     "editorconfig-checker": "^4.0.2",
+    "eslint": "^7.30.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-webpack-plugin": "^2.5.4",

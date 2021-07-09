@@ -6,4 +6,3 @@ function sayHello() {
 }
 
 sayHello();
-sayHello();

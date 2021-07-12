@@ -1,12 +1,19 @@
-console.log('hello, world!');
-console.log('hello, world');
+import '../styles/index.css';
 
-function sayHello() {
-	console.log('Hello, world');
+function loadForm() {
+	const button = document.querySelector('.button');
+	button.addEventListener('click', addPerson);
 }
 
-sayHello();
-sayHello();
-sayHello();
-sayHello();
-sayHello();
+function addPerson() {
+	const inputs = document.querySelectorAll('.menu__input');
+	const name = inputs.item(0).value;
+	const gb = inputs.item(1).value;
+	document.querySelector('.card').innerHTML += `
+	<div class="card__record record">
+        <div class="record__name">${name}</div>
+        <div class="record__GB">${gb}</div>
+      </div>`;
+}
+
+loadForm();
